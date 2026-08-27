@@ -1,8 +1,8 @@
 # ⚡ DSA Problem Vault
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Solved-1-10b981?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/LeetCode-1-ffa116?style=for-the-badge&logo=leetcode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Total%20Solved-2-10b981?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/LeetCode-2-ffa116?style=for-the-badge&logo=leetcode&logoColor=white" />
   <img src="https://img.shields.io/badge/GeeksforGeeks-0-2e7d32?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
   <img src="https://img.shields.io/badge/HackerRank-0-00ea64?style=for-the-badge&logo=hackerrank&logoColor=white" />
   <img src="https://img.shields.io/badge/Codeforces-0-3182ce?style=for-the-badge&logo=codeforces&logoColor=white" />
@@ -19,11 +19,11 @@
 
 | Platform | Solved | Ratio | Visual Distribution |
 | :--- | :---: | :---: | :--- |
-| 🟧 **LeetCode** | **1** | 100.0% | `████████████████` |
+| 🟧 **LeetCode** | **2** | 100.0% | `████████████████` |
 | 🟩 **GeeksforGeeks** | **0** | 0.0% | `░░░░░░░░░░░░░░░░` |
 | 🟢 **HackerRank** | **0** | 0.0% | `░░░░░░░░░░░░░░░░` |
 | 🟦 **Codeforces** | **0** | 0.0% | `░░░░░░░░░░░░░░░░` |
-| 🏆 **Total Unique** | **1** | 100% | `████████████████████` |
+| 🏆 **Total Unique** | **2** | 100% | `████████████████████` |
 
 </div>
 
@@ -34,6 +34,7 @@
 | Platform | ID | Problem Title | Difficulty | Language | Solution Folder |
 | :---: | :---: | :--- | :---: | :---: | :---: |
 | **LeetCode** | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | `JavaScript` | [`0002-add-two-numbers`](./LeetCode/0002-add-two-numbers/) |
+| **LeetCode** | add-two-numbers | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | `JavaScript` | [`add-two-numbers`](./LeetCode/add-two-numbers/) |
 
 ---
 
