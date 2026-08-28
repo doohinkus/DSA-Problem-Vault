@@ -7,10 +7,10 @@
 
 ## 🧠 AI Complexity Analysis
 
-* ⏱️ **Time Complexity**: `O(N)`
+* ⏱️ **Time Complexity**: `O(N²)`
 * 💾 **Space Complexity**: `O(1)`
 * 🧩 **Pattern**: `Arrays & Hashing`
-* 💡 **Intuition**: Iterates through input elements to compute result efficiently.
+* 💡 **Intuition**: Uses nested iterations over the input dataset.
 * 🎯 **Edge Cases**: Handles standard constraints, empty inputs, and boundary values.
 * 🤖 *Engine: Static AI Engine*
 
@@ -21,10 +21,24 @@
 
 ## Solution Code
 ```js
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLongestSubstring = function(s) {
+   let uniqueChars = new Set();
+   let start = 0, end = 0, maxLength = 0;
+
+   while(end < s.length){
+    while(uniqueChars.has(s[end])){
+        uniqueChars.delete(s[start]);
+        start++;
+    }
+    uniqueChars.add(s[end]);
+    maxLength = Math.max(maxLength, end - start + 1);
     end++;
    }
 
   return maxLength;
 };
-
 ```
