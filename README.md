@@ -1,8 +1,8 @@
 # ⚡ DSA Problem Vault
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Solved-9-10b981?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/LeetCode-9-ffa116?style=for-the-badge&logo=leetcode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Total%20Solved-10-10b981?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/LeetCode-10-ffa116?style=for-the-badge&logo=leetcode&logoColor=white" />
   <img src="https://img.shields.io/badge/GeeksforGeeks-0-2e7d32?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
   <img src="https://img.shields.io/badge/HackerRank-0-00ea64?style=for-the-badge&logo=hackerrank&logoColor=white" />
   <img src="https://img.shields.io/badge/Codeforces-0-3182ce?style=for-the-badge&logo=codeforces&logoColor=white" />
@@ -19,11 +19,11 @@
 
 | Platform | Solved | Ratio | Visual Distribution |
 | :--- | :---: | :---: | :--- |
-| 🟧 **LeetCode** | **9** | 100.0% | `████████████████` |
+| 🟧 **LeetCode** | **10** | 100.0% | `████████████████` |
 | 🟩 **GeeksforGeeks** | **0** | 0.0% | `░░░░░░░░░░░░░░░░` |
 | 🟢 **HackerRank** | **0** | 0.0% | `░░░░░░░░░░░░░░░░` |
 | 🟦 **Codeforces** | **0** | 0.0% | `░░░░░░░░░░░░░░░░` |
-| 🏆 **Total Unique** | **9** | 100% | `████████████████████` |
+| 🏆 **Total Unique** | **10** | 100% | `████████████████████` |
 
 </div>
 
@@ -42,6 +42,7 @@
 | **LeetCode** | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | `JavaScript` | [`0020-valid-parentheses`](./LeetCode/0020-valid-parentheses/) |
 | **LeetCode** | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | Easy | `JavaScript` | [`0263-ugly-number`](./LeetCode/0263-ugly-number/) |
 | **LeetCode** | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | `JavaScript` | [`0202-happy-number`](./LeetCode/0202-happy-number/) |
+| **LeetCode** | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | `JavaScript` | [`0001-two-sum`](./LeetCode/0001-two-sum/) |
 
 ---
 
