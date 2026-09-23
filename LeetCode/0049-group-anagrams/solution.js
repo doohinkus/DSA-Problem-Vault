@@ -12,8 +12,8 @@ function buildKey(s) {
     count[c.charCodeAt(0) - 97]++;
   }
   // Use a delimiter so "ab" vs counts don't collide ambiguously
-  // [1, 1, 1, ,0, 0....] -> '1#1#1#0#...' without delimter 21
-  return count.join(":");
+  // [1, 1, 1, ,0, 0....] -> '1#1#1#0#...' without delimter repeated letters fail bbb
+  return count.join(",");
    
 };
 /**
