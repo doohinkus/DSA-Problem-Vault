@@ -5,14 +5,16 @@
 function buildKey(s) {
   // fill with 0s each index represents a letter from a-z (0-25)
   const count = new Array(26).fill(0);
-  // 97 is lowercase 'a' 97 -> 98 -> 99 ...
+  // 97 is lowercase 'a' 97 -> 98 'b' -> 99 'c' ...
+  // Get each character from s: 'cab'. First iteration: -> (s[c] -> 'c' )
   for (const c of s) {
-    // flip the value in the array to 1 (cab) c: 99 - 97 = 2, a: 97 - 97 = 0, b: 98 - 97 = 1 
+    // Increase the value of the letter in the slot by 1 (cab) c: 99 - 97 = 2, a: 97 - 97 = 0, b: 98 - 97 = 1 
     // count[2] -> 1, count[0] -> 1, count[1] -> 1
+    // eg. 'caab' -> count[0]: 2
     count[c.charCodeAt(0) - 97]++;
   }
   // Use a delimiter so "ab" vs counts don't collide ambiguously
-  // [1, 1, 1, ,0, 0....] -> '1#1#1#0#...' without delimter repeated letters fail bbb
+  // [1, 1, 1, ,0, 0....] -> '1,1,1,0,...' without delimter repeated letters fail bbb
   return count.join(",");
    
 };
@@ -25,8 +27,7 @@ var groupAnagrams = function(strs) {
   const map = new Map();
 
   for (const s of strs) {
-    // Key 1 (simple): sort the string — "eat" -> "aet"
-    // Key 2 (faster for long strings): count 26 letters
+    // string indicating letters count 26 letters, delimted by ',' cab -> '1,1,1,0,0....'
     const key = buildKey(s);
     if (!map.has(key)){
         map.set(key, []);
