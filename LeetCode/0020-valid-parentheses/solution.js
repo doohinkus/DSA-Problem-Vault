@@ -18,13 +18,13 @@ var isValid = function(s) {
         if (char === '(' || char === '[' || char === '{') {
             stack.push(char);
         } else {
-            // For a closing bracket, get the most recent opening bracket
-            const lastOpeningBracket = stack.pop();
+            // For a closing bracket, get the most recent closing bracket
+            const lastClosingBracket = stack.pop();
 
             // The brackets are invalid if:
             // 1. There is no matching opening bracket
             // 2. The opening bracket does not match the closing bracket
-            if (lastOpeningBracket !== matchingBracket[char]) {
+            if (lastClosingBracket !== matchingBracket[char]) {
                 return false;
             }
         }
